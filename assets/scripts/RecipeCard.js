@@ -122,7 +122,6 @@ class RecipeCard extends HTMLElement {
 	set data(data) {
 		// If nothing was passed in, return
 		if (!data) return;
-		event.preventDefault();
 		// A6. TODO - Select the <article> we added to the Shadow DOM in the constructor
 		let articleElement = this.shadowEl.querySelector('article');
 		// A7. TODO - Set the contents of the <article> with the <article> template given in
